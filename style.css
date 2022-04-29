@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Roboto, GraphikCy,'Helvetica CY',Arial,sans-serif;
+}
+.navbar {
+    background-color: #F5F5F6;
+    display: flex;
+    height: 50px;
+    padding: 10px 100px;
+    font-family: Roboto;
+    line-height: 13px;
+    font-style: medium;
+    font-weight: 500;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px 70px;
+    align-items: center;
+    margin: 0 110px;
+}
+
+img{
+height: 23px;
+width: 89px;
+
+}
+
+li{
+    list-style-type: none;
+    color: rgba(149, 155, 164, 1);
+    cursor: pointer;
+}
+
+li:hover{
+    color: black;
+}
+
+button{
+    height: 33px;
+width: 58px;
+border-radius: 4px;
+background: white;
+border: none;
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+font-style: medium;
+margin-left: 50px;
+}
+
+div {
+    display: block;
+}
+.calc {
+    margin: 35px auto 45px;
+}
+h1{
+    height: 32px;
+width: 587px;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+margin-top: 68px;
+
+}
+
+.calc__box {
+    width: 930px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.move-left {
+    margin-right: 125px;
+}
+
+.calc__title {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.calc__switcher {
+    overflow: hidden;
+}
+
+.calc__switcher_l{
+    overflow: hidden; 
+}
+
+.calc__switcher__item.active {
+    color: #fff;
+    background-color: rgba(131, 58, 224, 1);
+}
+.calc__switcher__item:first-child {
+    border-left: 1px solid #cdcdcd;
+    border-radius: 4px 0 0 4px;
+}
+.calc__switcher__item {
+    width: 99px;
+    height: 40px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.calc__input_box {
+    margin: 24px 0;
+    padding: 30px 20px 15px;
+    border: 1px solid #cdcdcd;
+}
+
+.calc__input_box__input {
+width: 100%;
+height: 46px;
+font-size: 44px;
+margin-bottom: 30px;
+outline: 0;
+border: none;
+font-family: GraphikCy-Semibold,'Helvetica CY',Arial,sans-serif;
+border-radius: 4px;
+}
+
+.calc__input_box__rate {
+    width: 100%;
+    height: 14px;
+    text-transform: uppercase;
+    color: #777;
+}
+
